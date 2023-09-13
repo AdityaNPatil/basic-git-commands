@@ -6,10 +6,16 @@ open it in VS code using code (command)
 🚩
 CONNECTING TO GIT REPOSITORY - 
 
+◘ Connecting Username and email
+git config --global user.email "adityapatil2708@gmail.com"
+
 ◘ git init
 ♦ this is working directory now
 
 ◘ To track changes we must add it to Staging area
 ♦ git status - get the status of the files in the working directory (untracked or tracked)
 ♦ git add <filename>  - add file to the staging area
+
+◘ Commit a given file
+♦ git commit -m "commit message" - always write in present tens
 

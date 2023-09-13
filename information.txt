@@ -15,7 +15,13 @@ git config --global user.email "adityapatil2708@gmail.com"
 ◘ To track changes we must add it to Staging area
 ♦ git status - get the status of the files in the working directory (untracked or tracked)
 ♦ git add <filename>  - add file to the staging area
+♦ git add . - adds all files in the working directory
 
 ◘ Commit a given file
-♦ git commit -m "commit message" - always write in present tens
+♦ git commit -m "commit message" - always write in present tense
 
+◘ Get logs of all commits in the working directory
+♦ git log
+
+◘ Revert back to the last git commit
+♦ git checkout

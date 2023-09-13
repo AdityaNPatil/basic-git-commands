@@ -1,0 +1,15 @@
+🚩 
+cd to current directory
+touch a new text file
+open it in VS code using code (command)
+
+🚩
+CONNECTING TO GIT REPOSITORY - 
+
+◘ git init
+♦ this is working directory now
+
+◘ To track changes we must add it to Staging area
+♦ git status - get the status of the files in the working directory (untracked or tracked)
+♦ git add <filename>  - add file to the staging area
+

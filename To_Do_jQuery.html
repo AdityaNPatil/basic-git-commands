@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+
+    <style>
+        input[type="text"].task {
+            width: 300px;
+            height: auto;
+            color: rgb(255, 71, 71);
+            background-color: rgb(211, 211, 211);
+        }
+
+        .listStyling{
+            color: purple;
+            background-color: azure;
+            font-size: 1.5rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 4px 0px 5px pink;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>To-Do</h1>
+    <h2>Please Enter Tasks...</h2>
+
+    <div class="container">
+        <label for="taskname">Task:</label>
+        <input type="text" class="task" name="taskname" placeholder="Enter Task Here..." autofocus>
+        <button id="addTask">Go</button>
+        <button id="remTask">Remove</button>
+    </div>
+
+    <div class="taskContainer">
+        <p>Tasks here:</p>
+        <ol id="taskList"></ol>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js">     </script>
+
+    <script>
+        // Selecting elements
+        let subhead = $("h2");
+        let addbtn = $("#addTask");
+        let rembtn = document.querySelector("#remTask");
+        let list = $("#taskList");
+
+        // Adding the tasks
+        addbtn.click(function(){
+            // creating and adding task as list element
+            var task = $(".task").val();
+            var listElement = document.createElement("li");
+            list.append(listElement);
+            listElement.innerHTML = task;
+
+            // styling the tasks
+            list.addClass("listStyling");
+
+            // clearing the input box value after each click
+            $(".task").val(" ");
+        });
+
+        // Removing matched tasks
+        rembtn.addEventListener("click",function (){
+            let task = document.querySelector(".task").value;
+            console.log(task);
+            let listElements = document.querySelectorAll("#taskList li");
+            let list = document.querySelector("#taskList");
+            let index = 0;
+
+            for(let i=0;i<listElements.length;i++){
+                if(task === listElements[i].innerHTML){
+                    listElements[i].style.textDecoration="line-through";
+                    index = i;
+                }
+            }
+
+            list.removeChild(listElements[index]);
+        });
+    </script>
+
+</body>
+</html>

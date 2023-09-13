@@ -24,4 +24,4 @@ git config --global user.email "adityapatil2708@gmail.com"
 ♦ git log
 
 ◘ Revert back to the last git commit
-♦ git checkout
+♦ git checkout filename

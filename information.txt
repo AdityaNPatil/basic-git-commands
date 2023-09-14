@@ -25,3 +25,21 @@ git config --global user.email "adityapatil2708@gmail.com"
 
 ◘ Revert back to the last git commit
 ♦ git checkout filename
+
+
+🚩
+REMOTE REPOSITORY AND GITHUB
+
+◘ Create a new REPOSITORY REMOTELY
+♦ echo "# Udemy-practice" >> README.md
+♦ git init
+♦ git add README.md
+♦ git commit -m "first commit"
+♦ git branch -M main
+♦ git remote add origin https://github.com/AdityaNPatil/Udemy-practice.git
+♦ git push -u origin main
+
+◘ Push Existing Repo from command line
+♦ git remote add origin https://github.com/AdityaNPatil/Udemy-practice.git  - git remote add <remoteName> <repoUrl>
+♦ git branch -M main - define main branch name
+♦ git push -u origin main - Used to link local and gihub Repo  -- origin = <remoteName> -- main = <branchName>

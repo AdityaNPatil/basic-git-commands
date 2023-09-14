@@ -49,3 +49,11 @@ REMOTE REPOSITORY AND GITHUB
 GIT INGNORE - which files not to track
 
 .gitignore
+
+♦ touch .gitignore
+♦ open <path to gitignore>
+♦ (Put name of files that are to be ignored into the gitignore file)
+♦ *.txt - ignore all txt files
+♦ https://github.com/github/gitignore
+
+♦ git rm --cached -r . -- remove everything from staging area

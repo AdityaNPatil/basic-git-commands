@@ -42,7 +42,7 @@ REMOTE REPOSITORY AND GITHUB
 ◘ Push Existing Repo from command line
 ♦ git remote add origin https://github.com/AdityaNPatil/Udemy-practice.git  - git remote add <remoteName> <repoUrl>
 ♦ git branch -M main - define main branch name
-♦ git push -u origin main - Used to link local and gihub Repo  -- origin = <remoteName> -- main = <branchName>
+♦ git push -u origin main - Used to link local and github Repo  -- origin = <remoteName> -- main = <branchName>
 
 
 🚩

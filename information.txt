@@ -80,3 +80,9 @@ BRANCHING AND MERGING
 
 🚩
 FORKING AND PULL REQUEST
+
+◘ Forking - Creating a copy of a remote repo in your own account 
+◘ Pull Request - Once a contributor is satisfied about the changes he/she can easily create a pull request and then the original owner can approve or deny the request to add/not add the changes to the repository
+
+◘ Collaborator - People who have access to the repository and can make changes to the repository without pull requests
+◘ contributor - Dont have access to the repository and need to create a pull request for changes

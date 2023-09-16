@@ -62,7 +62,7 @@ GIT INGNORE - which files not to track
 🚩
 CLONING
 ◘ Cloning repo from github to local repo 
-♦ git clone
+♦ git clone <url>
 
 ◘ 
 ♦ https://github.com/MunGell/awesome-for-beginners

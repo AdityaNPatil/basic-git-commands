@@ -76,4 +76,5 @@ BRANCHING AND MERGING
 ♦ git branch <branchname>
 
 ◘ To merge the new branch with preexisting branch we use MERGING
-♦ git merge <branchname
+♦ git merge <branchname>
+

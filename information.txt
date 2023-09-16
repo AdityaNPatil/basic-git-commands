@@ -56,4 +56,5 @@ GIT INGNORE - which files not to track
 ♦ *.txt - ignore all txt files
 ♦ https://github.com/github/gitignore
 
-♦ git rm --cached -r . -- remove everything from staging area
+◘ Remove everything from staging area
+♦ git rm --cached -r . 

@@ -58,3 +58,15 @@ GIT INGNORE - which files not to track
 
 ◘ Remove everything from staging area
 ♦ git rm --cached -r . 
+
+🚩
+CLONING
+◘ Cloning repo from github to local repo 
+♦ git clone
+
+◘ 
+♦ https://github.com/MunGell/awesome-for-beginners
+♦ https://github.com/clupasq/word-mastermind
+
+
+

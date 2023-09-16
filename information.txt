@@ -69,4 +69,11 @@ CLONING
 ♦ https://github.com/clupasq/word-mastermind
 
 
+🚩
+BRANCHING AND MERGING
 
+◘ To create a new branch to experiment with new features we use BRANCHING
+♦ git branch <branchname>
+
+◘ To merge the new branch with preexisting branch we use MERGING
+♦ git merge <branchname

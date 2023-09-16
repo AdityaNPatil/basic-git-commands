@@ -78,3 +78,5 @@ BRANCHING AND MERGING
 ◘ To merge the new branch with preexisting branch we use MERGING
 ♦ git merge <branchname>
 
+🚩
+FORKING AND PULL REQUEST
